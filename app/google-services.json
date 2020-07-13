@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "853846447292",
+    "firebase_url": "https://mastersdentf-4e750.firebaseio.com",
+    "project_id": "mastersdentf-4e750",
+    "storage_bucket": "mastersdentf-4e750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853846447292:android:e52081404746a92ec26cb9",
+        "android_client_info": {
+          "package_name": "com.example.mastersdentf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853846447292-ha9offgq7toqoph8ia8k4osqeu1ae8r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mastersdentf",
+            "certificate_hash": "16e131727f3d10ef372384c1439aeca32797a858"
+          }
+        },
+        {
+          "client_id": "853846447292-80gvg5iu2f872d2vom7r9q3avadfhtnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuKpcSGp4NZZNJ0hl0YDtUrvQTgtptkaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853846447292-80gvg5iu2f872d2vom7r9q3avadfhtnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
