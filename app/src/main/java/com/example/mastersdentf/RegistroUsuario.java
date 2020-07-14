@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -41,7 +42,26 @@ public class RegistroUsuario extends AppCompatActivity {
         C3=findViewById(R.id.txtCorreo);
         C4=findViewById(R.id.txtContrasena);
         C5=findViewById(R.id.txtConfirmarContraseña);
-
+        //TXT Ir a recueprar contraseña
+        TextView txtRecuperarContraseña = this.findViewById(R.id.txtRecuperarContraseña);
+        txtRecuperarContraseña.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent(RegistroUsuario.this, RecuperarContrasenna.class);
+                startActivity(o);
+            }
+        });
+        //TXT Ir a recueprar contraseña
+        //TXT Ir a Ir A INICIAR SESION
+        TextView txtIniciarSesion = this.findViewById(R.id.txtIniciarSesion);
+        txtIniciarSesion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent(RegistroUsuario.this, IniciarSesion.class);
+                startActivity(o);
+            }
+        });
+        //TXT Ir a Ir A INICIAR SESION
     }
     public boolean validar() {
         boolean retorno = true;
@@ -93,6 +113,7 @@ public class RegistroUsuario extends AppCompatActivity {
                                     //Log.d(TAG, "createUserWithEmail:success");
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     //updateUI(user);
+                                    Toast.makeText(getApplicationContext(), "Usuario registrado.", Toast.LENGTH_SHORT).show();
                                     Intent o = new Intent(RegistroUsuario.this, IniciarSesion.class);
                                     startActivity(o);
                                 } else {

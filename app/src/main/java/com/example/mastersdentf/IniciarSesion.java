@@ -36,7 +36,6 @@ public class IniciarSesion extends AppCompatActivity {
         C2=findViewById(R.id.txtContrasena);
         mAuth = FirebaseAuth.getInstance();
         //Iniciar sesion
-
         Button irARegistro = findViewById(R.id.btnRegistarse);
         irARegistro.setOnClickListener(new View.OnClickListener() {
             @Override
