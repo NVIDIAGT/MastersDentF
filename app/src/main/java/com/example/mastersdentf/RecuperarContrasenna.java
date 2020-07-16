@@ -45,7 +45,7 @@ public class RecuperarContrasenna extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()) {
                                 // Log.d(TAG, "Email sent.");
-                                Toast.makeText(getApplicationContext(), "Usuario y contraseña incorrectos.",
+                                Toast.makeText(getApplicationContext(), "Listo ahora puede .",
                                         Toast.LENGTH_SHORT).show();
                                 Intent o = new Intent(RecuperarContrasenna.this, IniciarSesion.class);
                                 startActivity(o);

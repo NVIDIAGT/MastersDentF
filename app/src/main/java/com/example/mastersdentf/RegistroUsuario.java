@@ -92,15 +92,15 @@ public class RegistroUsuario extends AppCompatActivity {
         }
         return retorno;
     }
-   //verificar si inicio sesion
-   @Override
-   public void onStart() {
-       super.onStart();
-       // Check if user is signed in (non-null) and update UI accordingly.
-       FirebaseUser currentUser = mAuth.getCurrentUser();
-       //updateUI(currentUser);
-   }
-   //registrar Usuario Nuevo
+    //verificar si inicio sesion
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        //updateUI(currentUser);
+    }
+    //registrar Usuario Nuevo
     public void registrarUsuario(View view) {
         if (validar()) {
             if (Contraseña.getText().toString().trim().equals(ConfirmarContraseña.getText().toString().trim())) {

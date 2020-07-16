@@ -83,7 +83,7 @@
                 android:layout_marginTop="18dp"
                 android:layout_marginEnd="32dp"
                 android:ems="10"
-                android:hint="Email"
+                android:hint="Correo electronico"
                 android:inputType="textPersonName"
                 android:textSize="14sp" />
         </LinearLayout>
