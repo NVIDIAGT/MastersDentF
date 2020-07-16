@@ -119,16 +119,16 @@ public class IniciarSesion extends AppCompatActivity implements GoogleApiClient.
     public boolean validar() {
         boolean retorno = true;
         String C1 = correo.getText().toString();
-        String C2 = correo.getText().toString();
-        if (C1.isEmpty()) {
+        String C2 = contraseña.getText().toString();
+        if (correo.getText().toString().trim().isEmpty()) {
             correo.setError("El campo del correo electronico esta vacio");
             retorno = false;
         }
-        if (C2.isEmpty()) {
-            contraseña.setError("El campo de la contraseña esta vacio");
+        if (contraseña.getText().toString().trim().isEmpty()) {
+            contraseña.setError("El campo del contraseña esta vacio");
             retorno = false;
         }
-        return retorno;
+            return retorno;
     }
     //Iniciar sesion
     public void iniciarSesion(View v){

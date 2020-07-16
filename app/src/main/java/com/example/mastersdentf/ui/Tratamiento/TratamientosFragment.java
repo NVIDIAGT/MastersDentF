@@ -1,4 +1,4 @@
-package com.example.mastersdentf.ui.Usuarios;
+package com.example.mastersdentf.ui.Tratamiento;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.mastersdentf.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link UsuariosRegistrados#newInstance} factory method to
+ * Use the {@link TratamientosFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class UsuariosRegistrados extends Fragment {
+public class TratamientosFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class UsuariosRegistrados extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public UsuariosRegistrados() {
+    public TratamientosFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class UsuariosRegistrados extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment UsuariosRegistrados.
+     * @return A new instance of fragment TratamientosFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static UsuariosRegistrados newInstance(String param1, String param2) {
-        UsuariosRegistrados fragment = new UsuariosRegistrados();
+    public static TratamientosFragment newInstance(String param1, String param2) {
+        TratamientosFragment fragment = new TratamientosFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class UsuariosRegistrados extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_usuarios_registrados, container, false);
+        return inflater.inflate(R.layout.fragment_tratamientos, container, false);
     }
 }

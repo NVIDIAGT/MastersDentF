@@ -3,19 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Usuarios.UsuariosRegistrados">
+    tools:context=".ui.Tratamiento.TratamientosFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/fab_margin"
-        android:text="Usuarios Registrados" />
-
-    <ListView
-        android:id="@+id/list_Usuarios"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>

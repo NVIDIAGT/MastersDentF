@@ -22,4 +22,14 @@
         android:name="com.example.mastersdentf.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/citaEnLineaFragment"
+        android:name="com.example.mastersdentf.ui.citas.CitaEnLineaFragment"
+        android:label="fragment_cita_en_linea"
+        tools:layout="@layout/fragment_cita_en_linea" />
+    <fragment
+        android:id="@+id/tratamientosFragment"
+        android:name="com.example.mastersdentf.ui.Tratamiento.TratamientosFragment"
+        android:label="fragment_tratamientos"
+        tools:layout="@layout/fragment_tratamientos" />
 </navigation>
