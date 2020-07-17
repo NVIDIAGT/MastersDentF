@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.mastersdentf.ui.home.HomeFragment"
-        android:label="Detalle del Historial"
+        android:label="Detalle Historial"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -25,11 +25,11 @@
     <fragment
         android:id="@+id/citaEnLineaFragment"
         android:name="com.example.mastersdentf.ui.citas.CitaEnLineaFragment"
-        android:label="cita en linea"
-        tools:layout="@layout/cita_en_linea_fragment" />
+        android:label="Cita en linea"
+        tools:layout="@layout/fragment_cita_en_linea" />
     <fragment
         android:id="@+id/tratamientosFragment"
-        android:name="com.example.mastersdentf.ui.Tratamiento.TratamientosFragment"
+        android:name="com.example.mastersdentf.ui.Tratamiento.TratamientoFragment"
         android:label="Tratamientos"
-        tools:layout="@layout/fragment_tratamientos" />
+        tools:layout="@layout/tratamiento_fragment" />
 </navigation>

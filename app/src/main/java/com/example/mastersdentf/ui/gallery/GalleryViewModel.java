@@ -10,7 +10,7 @@ public class GalleryViewModel extends ViewModel {
 
     public GalleryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Horario de atención 09:00 AM - 10:00 PM Lunes - Sábado");
+        mText.setValue("Horario de atención 09:00 AM - 10:00 PM Lunes A Sábado ");
     }
 
     public LiveData<String> getText() {
